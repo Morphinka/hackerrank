@@ -1,0 +1,10 @@
+n = int(input())
+N = input()
+N = N.split(" ")
+b = int(input())
+B = input()
+B = B.split(" ")
+
+s = set(N)
+result = s.union(B)
+print(len(result))
